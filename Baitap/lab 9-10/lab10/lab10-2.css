@@ -1,0 +1,140 @@
+.signup-name_text {
+    margin: 0;
+}
+
+.signup-sex {
+    display: flex;
+    margin-top: 16px;
+    position: relative;
+}
+
+.signup-sex-list {
+    border: 1px solid black;
+    position: relative;
+    list-style: none;
+    display: flex;
+    padding: 10px 0px;
+    margin: 0;
+    width: 180px;
+}
+
+.signup-sex_text {
+    position: absolute;
+    font-size: 14px;
+    margin: 0;
+    background-color: white;
+    left: 10px;
+    transform: translateY(-50%);
+    display:block;
+    z-index: 1;
+}
+
+.signup-sex-item {
+    display: flex;
+    margin-left: 10px;
+}
+
+.signup-sex-item p {
+    margin: 0;
+}
+
+.signup-ngaySinh,
+.signup-diem {
+    margin-top: 16px;
+}
+
+.ngaySinh-input,
+.diem-input {
+    display:block;
+}
+
+.signup-soThich {
+
+    border: 1px solid black;
+    position: relative;
+    list-style: none;
+    display: flex;
+    padding: 10px 0px;
+    margin: 16px 0 ;
+    width: 500px;
+}
+
+.soThich-label {
+    position: absolute;
+    font-size: 14px;
+    margin: 0;
+    background-color: white;
+    top:0;
+    left: 10px;
+    transform: translateY(-50%);
+    display:block;
+    z-index: 1;
+}
+
+.soThich-list {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    padding: 0;
+    margin-left: -10px;
+}
+
+.soThich-item {
+    display: flex;
+    margin-left: 10px;
+}
+
+.soThich-item p {
+    margin: 0 0 0 5px;
+}
+
+.ghiChu-input {
+    display: block;
+    width: 200px;
+    height: 80px;
+}
+
+.line-form_signup {
+    height: 2px;
+    width: 200px;
+    margin: 10px 0;
+}
+
+.input-text:focus {
+    background:yellow;
+    box-shadow:  0 0 3px red;
+    border: 1px solid yellow;
+    outline: none;
+}
+
+.chucNang {
+    display:flex;
+    margin-left: -10px;
+}
+
+.chucNang-item {
+    min-width: 50px;
+    box-shadow: inset 0 0 20px blue;
+    border-radius: 20px;
+    padding:8px 24px;
+    color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.chucNang-item:hover {
+    cursor: pointer;
+    color:blue;
+    box-shadow: inset 0 0 20px orangered;
+}
+
+.signup-nghe {
+    margin-top: 16px;
+}
+
+.nghe-input {
+    margin-top:5px;
+    display: block;
+}

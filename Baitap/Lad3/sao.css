@@ -1,0 +1,19 @@
+h1{
+    font-weight: bold;
+}
+
+p{
+    font-style: italic;
+}
+.Doan1{
+    color: red;
+}
+.Doan2{
+    color:blue;
+}
+.Doan3{
+    color: green;
+}
+b{
+    color: brown;
+}

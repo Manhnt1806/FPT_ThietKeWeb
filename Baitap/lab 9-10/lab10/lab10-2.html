@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> bài 2 lab10</title>
+    <link rel="stylesheet" href="lab10-2.css">
+</head>
+
+<body>
+        <h1>bài 2 </h1>
+    <div class="signup_form">
+        <div class="signup-name">
+            <p class="signup-name_text">Họ và tên:</p>
+            <input type="text" class="signup-name_input input-text">
+        </div>
+
+        <div class="signup-sex">
+            <p class="signup-sex_text">Giới tính:</p>
+            <ul class="signup-sex-list">
+                <li class="signup-sex-item">
+                    <input type="radio" name="sex" checked>
+                    <p>Nam</p>
+                </li>
+
+                <li class="signup-sex-item">
+                    <input type="radio" name="sex">
+                    <p>Nữ</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="signup-ngaySinh">
+            <label for="" class="ngaySinh-label">Ngày sinh:</label>
+            <input type="date" class="ngaySinh-input input-text">
+        </div>
+
+        <div class="signup-diem">
+            <label for="" class="diem-label">Điểm: </label>
+            <input type="number" class="diem-input input-text" max="10" min="0" step="0.25">
+        </div>
+            
+        <div class="signup-nghe">
+            <label for="" class="nghe-label">Nghề nghiệp: </label>
+            <select name="" id="" class="nghe-input input-text">
+                <option value="1">Học sinh</option>
+                <option value="2">Kinh doanh</option>
+                <option value="3">Bác sĩ</option>
+                <option value="4">Kĩ sư</option>
+                <option value="5">IT</option>
+            </select>
+        </div>
+
+        <div class="signup-soThich">
+            <p class="soThich-label">Sở thích:</p>
+            <ul class="soThich-list">
+                <li class="soThich-item">
+                    <input type="checkbox" class="soThich-input">
+                    <p class="soThich-text">Thể Thao</p>
+                </li>
+                <li class="soThich-item">
+                    <input type="checkbox" class="soThich-input" checked>
+                    <p class="soThich-text">Du lịch</p>
+                </li>
+                <li class="soThich-item">
+                    <input type="checkbox" class="soThich-input">
+                    <p class="soThich-text">Âm nhạc</p>
+                </li>
+                <li class="soThich-item">
+                    <input type="checkbox" class="soThich-input">
+                    <p class="soThich-text">Ẩm thực</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="signup-ghiChu">
+            <label for="" class="ghiChu-label">
+                Ghi chú:
+            </label>
+            <textarea name="" id="" cols="50" rows="10" class="ghiChu-input input-text"></textarea>
+        </div>
+    </div>
+<hr>
+    <div class="line-form_signup"></div>
+
+    <div class="chucNang">
+        <div class="chucNang-item">Đăng ký</div>
+        <div class="chucNang-item">Nhập lại</div>
+    </div>
+</body>
+
+</html>

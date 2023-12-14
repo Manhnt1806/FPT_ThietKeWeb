@@ -1,0 +1,72 @@
+.logo {
+    height: 100px;
+    width: 300px;
+    background-color: red;
+    padding: 10px;
+
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+
+.banner {
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    background-color: yellow;
+
+    text-align: center;
+    line-height: 100px; 
+}
+
+.navbar {
+    background-color: green;
+    position: relative;
+    color: white;
+}
+
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.navbar form {
+    width: 250px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+input, button {
+    display: inline;
+    margin: 5px 2px;
+    padding: 4px;
+}
+
+.left-side-bar, .right-side-bar {
+    width: 300px;
+    background-color: aquamarine;
+    padding: 10px;
+min-height: 200px;
+}
+
+.left-side-bar {    
+    float: left;
+}
+
+.right-side-bar {
+    float: right;
+}
+
+.content {
+    background-color: bisque;
+    /* clear: both; */
+}
+
+.footer {
+    clear: both;
+    background-color: cornflowerblue;
+    padding: 10px;
+}

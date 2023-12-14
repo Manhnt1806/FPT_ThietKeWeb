@@ -1,0 +1,20 @@
+*{
+    font-weight: 600;
+}
+.bai1{
+    font-variant: small-caps;
+}
+.bai2{
+    font-variant: small-caps;
+}
+.male{
+    margin-top: 15px;
+}
+.hoten>input{
+    width: 200px;
+    height: 23px;
+}
+.quoctich{
+    width: 200px;
+    height: 23px;
+}

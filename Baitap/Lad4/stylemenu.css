@@ -1,0 +1,25 @@
+.menu{
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: 35px;
+}
+.menu>a{
+    font-variant: small-caps;
+    color: blue;
+    text-decoration: none;
+}
+.menu>a:visited{
+    color: green;
+}
+.menu>a:hover{
+    color: red;
+    text-decoration: none;
+}
+img.cangiua{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body>table>img{
+    box-shadow: 0 0 5px black;
+}

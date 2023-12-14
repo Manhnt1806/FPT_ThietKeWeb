@@ -1,0 +1,246 @@
+.menu{
+padding:0px;
+margin:5px;
+list-style:none;
+border-radius:3px;
+box-shadow:0 0 2px gray;
+}
+.menu a{
+  
+ background:url('img/right.gif')  no-repeat 10px center;
+    display: block;
+ border-bottom: 1px dotted orangered;
+    color: orangered;
+ font-variant: small-caps;
+ font-size: larger;
+text-decoration: none;
+ padding: 8px 5px 8px 30px;
+}
+.menu a:hover{
+   background: url('img/ahover.gif') no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+   font-weight: bold;
+}
+ /* end bài 1 */
+
+ /* start bài 2  */
+
+ .gianhang{
+    width: 25%;
+    height: 250px;
+   float: left;
+  
+    
+ }
+ 
+ .sanpham{
+    height: 200px;
+   border-radius:10px;
+   box-shadow:0 0 5px  gray;
+   margin:5px ;
+   padding:20px ;
+   text-align:center;
+   position:relative;
+
+ 
+ }
+ .sanpham>.name{
+    font-variant:small-caps;
+    color:orangered;
+ }
+.sanpham >.imgsanpham{
+   max-width:100%;
+   height:200px ;
+   margin-bottom:10px;
+ }
+.sanpham>.giatien{
+   position:absolute;
+    left:5px;
+    bottom:5px;
+    font-family:Impact;
+    font-size:25px;
+   color:orange;
+}
+.sanpham>.icons{
+   position:absolute;
+    right:5px;
+    bottom:2px;
+    width:35px;
+}
+.icons>img{
+   
+   width: 40px;
+   height: 40px;
+   margin-right: 30px;
+   right: 100px;
+   top: 70px;
+}
+.sanpham>.icondong{
+   position:absolute;
+   top:0px;
+    right:0px;
+    
+}
+.icondong>.anhsale{
+   width: 16px;
+   height: 16px;
+}
+.sanhsale{
+   width: 60px;
+   height: 60px;
+}
+            /* bai 3  */
+
+.banner{
+ max-width: 100%;
+ margin: 1px;
+}
+.banner-nho > img{
+   width: 98%;
+   height: 400px;
+   margin-left: 1%;
+   Position:relative;
+}
+.nav-bar{
+   background-color: orangered;
+   display: flex;
+   width: 98%;
+   margin-left:1% ;
+   justify-content: space-between;
+}
+.nav-small-bar{
+   display: flex;
+   float: left;
+   list-style: none;
+   line-height: 50px;
+   
+}
+.nav-small-bar2{
+   display: flex;
+   list-style: none;
+   text-decoration: none;
+   line-height: 50px;
+}
+
+.menu{
+   color: white;
+   text-decoration: none;
+   font-variant: small-caps;
+   font-size: 20px;
+   box-shadow: none;
+   margin: 20px;
+}
+.menu:hover{
+   color: blue;
+}
+.dangnhap {
+Position:absolute;
+ Top:6px;
+ Right:0px;
+ Border-bottom-left-radius: 30px;
+ width: 25%;
+ margin-right:1.5% ;
+ list-style: none;
+ background-color: orangered;
+ display: flex;
+ justify-content: space-around;
+ box-shadow: 4px 5px 8px black ;
+}
+.phandangnhap:hover{
+   color: blue;
+}
+.phandangnhap{ 
+text-decoration: none;
+line-height: 50px;
+font-variant: small-caps;
+color: white;
+}
+.logotrg{
+   top: 200px;
+   left: 158px;
+   position:absolute;
+}
+.logofpt{
+   font-size: 60px;
+   color: white;
+   text-shadow: 0 2px 8px orangered;
+}
+.tieuchi{
+   padding-left: 5px;
+   font-size: 31px;
+   color: blue;
+   margin: 5px;
+   font-variant: small-caps;
+   letter-spacing: 2px;
+}
+ /* bài 3 lap8 */
+ /* phần menu ngang  */
+.smallmenu{
+   margin: 0px;
+   display: none;
+   position: absolute;
+}
+.smallmenu>li{
+   position: relative;
+   list-style: none;
+}
+.smallmenu>li>a{
+   display: block;
+   color: orange;
+   font-variant: small-caps;
+   text-decoration: none;
+   border-radius: 3px;
+   border-bottom:2px solid black ;
+   box-shadow: 0 0 5px gray;
+   padding: 0px 30px;
+   
+}
+.smallmenu>li>a:hover{
+   background-color: orangered;
+   color: white;
+}
+.nav-small-bar>li:hover>.smallmenu{
+   display: block;
+}
+/* end phần menu ngang  */
+/* phần menu đứng trong aside */
+.midweb{
+   margin: 0;
+   width: 98%;
+   margin-left: 1%;
+   
+   z-index: 1; 
+}
+
+.menudung{
+   list-style: none;
+  
+}
+.menudung>li{
+   padding: 10px;
+   border-bottom: 1px dotted orangered;
+   list-style-image: url(img/right.gif);
+}
+.menudung>li:hover{
+   list-style-image: url(img/ahover.gif);
+   background-color: orange;
+}
+.menudung>li>a{
+   text-decoration: none;
+   font-variant: small-caps;
+   color: orangered; 
+}
+/* end menu đứng */
+footer {
+   border-top:5px double orangered;
+    line-height:40px;
+    background-color:lightcyan;
+    text-align:center;
+    font-variant:small-caps;
+    clear:both;
+}
+footer p {
+   margin: 0;
+}

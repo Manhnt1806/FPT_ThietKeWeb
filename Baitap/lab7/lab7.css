@@ -1,0 +1,190 @@
+.nav {
+    border: 1px solid rgb(84, 84, 247);
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 4px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    margin: 10px;
+}
+
+.nav:hover:hover {
+    color: #fff;
+    background-color: rgb(84, 84, 247);
+    transition: all 0.3 ease;
+}
+/* Bài 1 */
+.vmenu {
+    width: 300px;
+    padding: 0;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+
+.vmenu a {
+    background: url('phone-icon.png') no-repeat left 10px center;
+    background-size: 16px;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+
+.vmenu a:hover {
+    background: url('symbol-g4b1f5cf85_640.png') no-repeat left 10px center;
+    background-size: 16px;
+    border-bottom: white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+/* Bài 2 */
+.col-25{
+    width:25%;
+    float: left;
+}
+ 
+.prod{
+    border-radius:10px;
+    box-shadow:0 0 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align:center;
+    position:relative;}
+
+.prod >.name{
+    font-variant:small-caps;
+    color:orangered;
+}
+
+.prod >.image {
+    max-width: 95%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.prod >.price {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: orange;
+}
+
+.prod >.icons {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 25px;
+}
+
+.prod >.icons img {
+    width: 25px;
+}
+
+.prod >.new-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+}
+/* Bài 3 */
+* {
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+}
+.header {
+    width: 100%;
+    /* width: 720px; */
+}
+
+
+.nav-top-right, .main-nav {
+    background-color: orangered;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.header ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+.header ul li a:last-child {
+    margin-right: 10px;
+}
+
+h1 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 0 0 10px orangered; 
+    font-weight: 900;
+    font-size: 50px;
+}
+
+p {
+    color: orangered;
+    text-shadow: 0 0 10px black; 
+    font-weight: 600;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+.image {
+    position: relative;
+}
+.image img {
+    width: 100%;
+    /* vertical-align: middle; // hình ảnh dc tính là văn bản, dùng thuộc tính này vì văn bản có khoảng cách mặc định*/
+    display: block; /*cách 2: biến văn bản thành khối*/
+}
+
+.nav-top-right li:first-child {
+    padding-left: 25px;
+}
+.nav-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 30px;
+}
+
+.text-bottom-left{
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+}
+
+/* .main-nav {
+    height: 60px;
+}
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+} */
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul a:hover {
+    background-color:rgb(248, 182, 60);
+}
